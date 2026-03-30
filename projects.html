@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | James Kisengi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.3/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-white text-black antialiased">
+    <div class="max-w-6xl mx-auto px-6 py-10 lg:py-12">
+      <nav class="flex justify-between items-center mb-8 text-sm sm:text-base">
+        <a href="index.html" class="text-red-500 font-semibold">Home</a>
+        <div class="space-x-3">
+          <a href="projects.html" class="text-cyan-300 underline">Projects</a>
+          <a href="skills.html" class="hover:text-cyan-300">Skills</a>
+          <a href="about.html" class="hover:text-cyan-300">About</a>
+          <a href="contact.html" class="hover:text-cyan-300">Contact</a>
+        </div>
+      </nav>
+      <header class="mb-6 fade-item">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-black">💻 Projects</h1>
+        <p class="mt-3 text-gray-700">Selected work focused on high-performance Python backends and modern React frontends.</p>
+      </header>
+      <div class="grid gap-5 sm:grid-cols-2">
+        <article class="project-card bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-cyan-400 transition fade-item">
+          <h2 class="text-xl font-semibold text-black">FastAPI Microservice Suite</h2>
+          <p class="text-gray-700 mt-2">Real-time API services with metrics, observability, PostgreSQL and Redis for low-latency processing.</p>
+        </article>
+        <article class="project-card bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-cyan-400 transition fade-item">
+          <h2 class="text-xl font-semibold text-black">React Dashboard Platform</h2>
+          <p class="text-gray-700 mt-2">Interactive, responsive UI using React, TypeScript, Tailwind CSS, and modern architecture patterns.</p>
+        </article>
+        <article class="project-card bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-cyan-400 transition fade-item">
+          <h2 class="text-xl font-semibold text-black">Node.js Scalable API Layer</h2>
+          <p class="text-gray-700 mt-2">Clustered API endpoints, auth and caching, deployed with Docker and automated CI/CD.</p>
+        </article>
+        <article class="project-card bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-cyan-400 transition fade-item">
+          <h2 class="text-xl font-semibold text-black">SQL/NoSQL Data Orchestration</h2>
+          <p class="text-gray-700 mt-2">Complex data models with PostgreSQL + MongoDB and robust migrations for fast queries.</p>
+        </article>
+      </div>
+      <footer class="mt-10 text-center text-gray-500 text-sm">Built by James Kisengi</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
